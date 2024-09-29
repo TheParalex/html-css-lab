@@ -1,0 +1,138 @@
+body {
+    color: #ffffff;
+    background-image: url('../assets/dark-wood1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 950px;
+    margin: 5px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+header, nav, footer {
+    background-color: #3d3d3d;
+    color: #ffcd1a;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+
+nav a:link {
+    color: #ff6600;
+}
+
+nav a:visited {
+    color: #0099cc;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+
+nav a:active {
+    color: #00ff00;
+}
+
+a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.img-centre {
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+audio, video {
+    display: block;
+    margin: 10px auto;
+}
+
+table {
+    width: 800px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th, tfoot td {
+    text-transform: uppercase;
+    background-color: #555;
+    color: #000000;
+    padding: 2px 5px;
+    border: 1px solid #333;
+}
+
+td, th {
+    padding: 2px 5px;
+    border: 1px solid #999;
+    background-color: #6f6f6f;
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    background-color: #5f4949;
+}
+
+legend {
+    font-style: italic;
+    color: #fff;
+    background-color: #333;
+    margin: 0 10px;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    border: 2px solid #333;
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    color: #fff;
+    cursor: pointer;
+}
